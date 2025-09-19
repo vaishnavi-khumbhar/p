@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sangram Restaurant</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon1.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+ 
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <i class="bi bi-fork-knife"></i>
+        <h1 class="sitename">SangRam Restaurant</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#book-a-table">Book a Table</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#events">Events</a></li>
+          
+              
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted d-none d-sm-block" href="#book-a-table">Book a Table</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container-fluid hero-container" data-aos="fade-up">
+        <div class="row g-0 align-items-center">
+          <div class="col-lg-6 content-col">
+            <div class="content-wrapper">
+              <div class="status-badge">Reservations Open</div>
+              <h2>Savor the Moment, One Bite at a Time</h2>
+              <p>Discover a journey of flavors at our exquisite restaurant. Immerse yourself in a delightful dining experience crafted with passion and precision.</p>
+
+              <div class="opening-hours" data-aos="fade-up" data-aos-delay="500">
+                <i class="bi bi-clock"></i>
+                <span>Open Daily: 11am - 10pm</span>
+              </div>
+
+              <div class="btn-group">
+                <a href="#book-a-table" class="btn btn-book">Book a Table</a>
+                <a href="#menu" class="btn btn-menu">Explore Our Menu</a>
+              </div>
+
+              <div class="social-links">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 swiper-col">
+            <div class="swiper hero-swiper init-swiper" data-aos="zoom-out" data-aos-delay="100">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 800,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "effect": "fade",
+                  "slidesPerView": 1,
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-1.webp" alt="Restaurant Ambience">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-2.webp" alt="Signature Dish">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-container">
+                    <img src="assets/img/restaurant/misc-square-3.webp" alt="Expert Chefs">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-content">
+              <h3>Our Culinary Journey</h3>
+              <p class="fst-italic"> At Sangram Resort, we believe food is more than just a meal – it’s an
+    experience that tells the story of tradition, culture, and heartfelt
+    hospitality.</p>
+              <p>Nestled in the heart of Kolhapur, our resort celebrates the bold flavors and
+    rich heritage of local cuisine, blending them with modern culinary
+    techniques. Every dish is prepared with fresh, handpicked ingredients and
+    served with warmth, ensuring that every guest feels at home. Whether you’re
+    savoring our signature Kolhapuri dishes or exploring global delicacies, we
+    promise an unforgettable dining experience that lingers beyond the table.</p>
+
+              <div class="chef-signature mt-4">
+                <div class="row align-items-center">
+                  <div class="col-auto">
+                    <img src="assets/img/restaurant/chef-1.webp" class="chef-avatar rounded-circle" alt="Chef Portrait">
+                  </div>
+                  <div class="col">
+                    <p class="chef-message mb-2">"For me, cooking is about creating memories – a perfect balance of
+          tradition and innovation served with love."</p>
+                    <p class="chef-name">Executive Chef</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="about-image-wrapper">
+              <img src="assets/img/restaurant/showcase-4.webp" class="img-fluid main-image shadow" alt="Restaurant Interior">
+              <img src="assets/img/restaurant/showcase-2.webp" class="img-fluid accent-image shadow" alt="Chef Preparing Food">
+              <span class="establishment-year d-flex align-items-center justify-content-center text-center">Est. 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 pt-4 features-section">
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-award"></i>
+              </div>
+              <h4>Award Winning</h4>
+                    <p>Recognized for excellence in hospitality and authentic Kolhapuri cuisine that blends tradition with innovation.</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-egg-fried"></i>
+              </div>
+              <h4>Fresh Ingredients</h4>
+                    <p>Every dish is crafted using locally sourced spices, farm-fresh vegetables, and premium quality produce.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h4>Expert Team</h4>
+                    <p>Our chefs and hospitality experts bring passion and skill, ensuring every guest enjoys a memorable experience.</p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="feature-box">
+              <div class="feature-icon">
+                <i class="bi bi-heart"></i>
+              </div>
+              <h4>Cooked with Love</h4>
+                    <p>Our chefs and hospitality experts bring passion and skill, ensuring every guest enjoys a memorable experience.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="stats-container">
+              <div class="stat-item">
+                
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="0" class="purecounter">5</span></span>
+                <p class="stat-label">Expert Chefs</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="0" class="purecounter">3</span></span>
+                <p class="stat-label">Culinary Awards</p>
+              </div>
+
+              <div class="stat-item">
+                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="0" class="purecounter">15000</span>+</span>
+                <p class="stat-label">Happy Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Menu</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="menu-filters isotope-filters mb-5">
+            <ul>
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-starters">Starters</li>
+              <li data-filter=".filter-main">Main Courses</li>
+              <li data-filter=".filter-dessert">Desserts</li>
+              <li data-filter=".filter-drinks">Drinks</li>
+            </ul>
+          </div>
+
+          <div class="menu-container isotope-container row gy-4">
+
+           <!-- Regular Menu Items -->
+<div class="col-lg-6 isotope-item filter-starters">
+  <div class="menu-item d-flex align-items-center gap-4">
+    <img src="assets/img/restaurant/starter-2.webp" alt="Starter" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Bruschetta Trio <span class="menu-tag">Vegetarian</span></h5>
+      <p>Toasted bread with tomato, basil pesto, and roasted peppers.</p>
+      <div class="price">₹180</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-starters">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/starter-5.webp" alt="Starter" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Calamari Fritti <span class="menu-tag">Seafood</span></h5>
+      <p>Crispy fried calamari served with garlic aioli and marinara sauce.</p>
+      <div class="price">₹250</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-main">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/main-1.webp" alt="Main Course" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Wild Mushroom Risotto <span class="menu-tag">Vegetarian</span></h5>
+      <p>Creamy Arborio rice cooked with wild mushrooms and parmesan.</p>
+      <div class="price">₹450</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-main">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/main-4.webp" alt="Main Course" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Braised Lamb Shank <span class="menu-tag">Chef's Choice</span></h5>
+      <p>Slow-braised lamb with red wine reduction and mashed potatoes.</p>
+      <div class="price">₹650</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-dessert">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/dessert-2.webp" alt="Dessert" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Chocolate Lava Cake <span class="menu-tag">Gluten Free</span></h5>
+      <p>Warm chocolate cake with molten center, served with vanilla ice cream.</p>
+      <div class="price">₹220</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-dessert">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/dessert-7.webp" alt="Dessert" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Tiramisu <span class="menu-tag">Classic</span></h5>
+      <p>Layers of espresso-soaked ladyfingers, mascarpone cream, and cocoa.</p>
+      <div class="price">₹200</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-drinks">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/drink-3.webp" alt="Drink" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Signature Cocktail <span class="menu-tag">Alcoholic</span></h5>
+      <p>A refreshing mix of gin, elderflower liqueur, citrus, and fresh herbs.</p>
+      <div class="price">₹350</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-drinks">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/drink-8.webp" alt="Drink" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Berry Smoothie <span class="menu-tag">Non-Alcoholic</span></h5>
+      <p>Fresh blend of blueberries, strawberries, yogurt, and honey.</p>
+      <div class="price">₹180</div>
+    </div>
+  </div>
+</div>
+
+<!-- Kolhapuri Special Drinks -->
+<div class="col-lg-6 isotope-item filter-drinks">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/taak-plain.webp" alt="Plain Buttermilk" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Plain Buttermilk <span class="menu-tag">Refreshing</span></h5>
+      <p>Traditional Kolhapuri style buttermilk, lightly salted and chilled.</p>
+      <div class="price">₹20</div>
+    </div>
+  </div>
+</div>
+
+<div class="col-lg-6 isotope-item filter-drinks">
+  <div class="d-flex menu-item align-items-center gap-4">
+    <img src="assets/img/restaurant/taak-masala.webp" alt="Masala Buttermilk" class="menu-img img-fluid rounded-3">
+    <div class="menu-content">
+      <h5>Masala Buttermilk <span class="menu-tag">Special</span></h5>
+      <p>Chilled buttermilk with roasted cumin, coriander, and green chili.</p>
+      <div class="price">₹25</div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+<div class="text-center mt-5" data-aos="fade-up">
+  <a href="#" class="download-menu">
+    <i class="bi bi-file-earmark-pdf"></i> Download Full Menu
+  </a>
+</div>
+
+       <!-- Chef's Specials -->
+<div class="col-12 mt-5" data-aos="fade-up">
+  <div class="specials-badge">
+    <span><i class="bi bi-award"></i> Chef's Specials</span>
+  </div>
+  <div class="specials-container">
+    <div class="row g-4">
+
+      <!-- Special Dish 1 -->
+      <div class="col-md-6">
+        <div class="menu-item special-item">
+          <div class="menu-item-img">
+            <img src="assets/img/restaurant/main-3.webp" alt="Special Dish" class="img-fluid">
+            <div class="menu-item-badges">
+              <span class="badge-special">Special</span>
+              <span class="badge-vegan">Vegan</span>
+            </div>
+          </div>
+          <div class="menu-item-content">
+            <h4>Mediterranean Grilled Salmon</h4>
+            <p>Freshly grilled salmon with herbs, olive oil, and lemon zest, served with seasonal vegetables.</p>
+            <div class="menu-item-price">₹1150</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Special Dish 2 -->
+      <div class="col-md-6">
+        <div class="menu-item special-item">
+          <div class="menu-item-img">
+            <img src="assets/img/restaurant/main-7.webp" alt="Special Dish" class="img-fluid">
+            <div class="menu-item-badges">
+              <span class="badge-special">Special</span>
+              <span class="badge-spicy">Spicy</span>
+            </div>
+          </div>
+          <div class="menu-item-content">
+            <h4>Signature Ribeye Steak</h4>
+            <p>Juicy ribeye steak cooked to perfection, served with garlic butter, mashed potatoes, and sautéed greens.</p>
+            <div class="menu-item-price">₹2150</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+   <!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <p>What our customers are saying about our food and service</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 3,
+              "spaceBetween": 1
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <!-- Testimonial 1 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "Amazing experience! The food was fresh, flavorful, and beautifully presented. The staff was friendly and attentive."
+            </p>
+            <div class="profile mt-auto">
+              <img src="assets/img/person/person-m-9.webp" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>CEO &amp; Founder</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "Absolutely loved the Kolhapuri special drinks! The ambiance is perfect for a relaxing evening with friends or family."
+            </p>
+            <div class="profile mt-auto">
+              <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "The Chef's Specials are outstanding! Every dish is unique and delicious. Highly recommend trying the Masala Buttermilk."
+            </p>
+            <div class="profile mt-auto">
+              <img src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "Matt and his team provided an excellent dining experience. The service was quick, and the flavors were authentic and rich."
+            </p>
+            <div class="profile mt-auto">
+              <img src="assets/img/person/person-m-12.webp" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p>
+              "John’s recommendations were perfect! Loved the Kolhapuri dishes and the dessert selection. Will definitely come back soon."
+            </p>
+            <div class="profile mt-auto">
+              <img src="assets/img/person/person-m-13.webp" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section><!-- End Testimonials Section -->
+
+    <!-- Chefs Section -->
+<section id="chefs" class="chefs section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Chefs</h2>
+    <p>Meet the talented chefs behind our authentic Kolhapuri flavors and gourmet dishes</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row">
+      <!-- Highlighted Chef -->
+      <div class="col-lg-5">
+        <div class="chef-highlight" data-aos="fade-right" data-aos-delay="200">
+          <figure class="chef-image">
+            <img src="assets/img/restaurant/chef-1.webp" class="img-fluid" alt="Executive Chef">
+          </figure>
+          <div class="chef-details">
+            <h3>Executive Chef</h3>
+            <h2>Gabriel Turner</h2>
+            <div class="chef-awards">
+              <span><i class="bi bi-star-fill"></i> James Beard Award</span>
+              <span><i class="bi bi-star-fill"></i> Two Michelin Stars</span>
+            </div>
+            <p>Gabriel brings over 20 years of culinary experience, blending traditional flavors with modern techniques to create unforgettable dishes. Passionate about sourcing fresh, local ingredients and presenting each dish as a work of art.</p>
+            <div class="chef-signature">
+              <img src="assets/img/misc/signature-1.webp" alt="Chef Signature">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Other Chefs -->
+      <div class="col-lg-7">
+        <div class="team-container" data-aos="fade-left" data-aos-delay="300">
+          <div class="row g-4">
+
+            <div class="col-md-6">
+              <div class="chef-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="chef-img">
+                  <img src="assets/img/restaurant/chef-2.webp" class="img-fluid" alt="Chef Portrait">
+                  <div class="social-links">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h4>Sophia Martinez</h4>
+                  <p class="role">Pastry Chef</p>
+                  <p class="details">Sophia crafts desserts that delight both the eyes and the palate, specializing in European pastries with a modern twist.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="chef-card" data-aos="zoom-in" data-aos-delay="250">
+                <div class="chef-img">
+                  <img src="assets/img/restaurant/chef-3.webp" class="img-fluid" alt="Chef Portrait">
+                  <div class="social-links">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h4>Marcus Chen</h4>
+                  <p class="role">Sous Chef</p>
+                  <p class="details">Marcus ensures the kitchen runs smoothly and supports the head chef in creating innovative main courses with authentic flavors.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="chef-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="chef-img">
+                  <img src="assets/img/restaurant/chef-4.webp" class="img-fluid" alt="Chef Portrait">
+                  <div class="social-links">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h4>Jonathan Williams</h4>
+                  <p class="role">Head of Bar</p>
+                  <p class="details">Jonathan creates signature cocktails and beverages that perfectly complement the restaurant's culinary offerings.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="chef-card" data-aos="zoom-in" data-aos-delay="350">
+                <div class="chef-img">
+                  <img src="assets/img/restaurant/chef-5.webp" class="img-fluid" alt="Chef Portrait">
+                  <div class="social-links">
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                  </div>
+                </div>
+                <div class="chef-info">
+                  <h4>Isabella Romano</h4>
+                  <p class="role">Grill Master</p>
+                  <p class="details">Isabella is known for her expertise in grilling, creating bold flavors and perfectly cooked meats with authentic techniques.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /Chefs Section -->
+
+    <!-- Book A Table Section -->
+<section id="book-a-table" class="book-a-table section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-5 mb-5">
+      <!-- Reservation Info -->
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+        <div class="reservation-info">
+          <div class="text-content">
+            <h3>Reserve Your Table</h3>
+            <p>Experience the authentic flavors of Kolhapuri cuisine in a cozy and elegant atmosphere. Book your table in advance to enjoy a seamless dining experience.</p>
+
+            <div class="reservation-details mt-4">
+              <div class="detail-item">
+                <i class="bi bi-clock"></i>
+                <div>
+                  <h5>Opening Hours</h5>
+                  <p>Monday - Friday: 11:00 AM - 11:00 PM<br>
+                     Saturday - Sunday: 10:00 AM - 12:00 AM</p>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                  <h5>Location</h5>
+                  <p>1234 Main Street, Suite 100<br>
+                     Boston, MA 02110</p>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <i class="bi bi-telephone"></i>
+                <div>
+                  <h5>Call Us</h5>
+                  <p>+1 (617) 555-1234</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Reservation Image -->
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+        <div class="reservation-image">
+          <img src="assets/img/restaurant/showcase-7.webp" alt="Restaurant interior" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+
+    <!-- Reservation Form -->
+    <div class="row">
+      <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+        <div class="reservation-form-wrapper">
+          <div class="form-header">
+            <h3>Book A Table</h3>
+            <p>Fill out the form below and we will confirm your reservation promptly</p>
+          </div>
+
+          <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form mt-4">
+            <div class="row gy-4">
+              <div class="col-lg-4 form-group">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="col-lg-4 form-group">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              </div>
+              <div class="col-lg-4 form-group">
+                <input type="text" class="form-control" name="phone" placeholder="Your Phone" required>
+              </div>
+              <div class="col-lg-4 form-group">
+                <select name="people" class="form-select" required>
+                  <option value="">Number of Guests</option>
+                  <option value="1">1 Person</option>
+                  <option value="2">2 People</option>
+                  <option value="3">3 People</option>
+                  <option value="4">4 People</option>
+                  <option value="5">5 People</option>
+                  <option value="6">6+ People</option>
+                </select>
+              </div>
+              <div class="col-lg-4 form-group">
+                <input type="date" name="date" class="form-control" placeholder="Date" required>
+              </div>
+              <div class="col-lg-4 form-group">
+                <input type="time" class="form-control" name="time" placeholder="Time" required>
+              </div>
+
+              <div class="form-group mt-4">
+                <textarea class="form-control" name="message" rows="3" placeholder="Special Requests (Optional)"></textarea>
+              </div>
+            </div>
+
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your booking request was sent. We will call or email to confirm your reservation. Thank you!</div>
+            </div>
+
+            <div class="text-center mt-4">
+              <button type="submit" class="btn-book-table">Book Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /Book A Table Section -->
+
+   <!-- Location Section -->
+<section id="location" class="location section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Location</h2>
+    <p>Visit us and experience the authentic Kolhapuri flavors in a warm and welcoming atmosphere</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row g-4">
+      <!-- Map -->
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.684949335945!2d74.12458242357565!3d16.75853057126168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b1234567890%3A0xabcdef1234567890!2sKolhapur%20Special%20Restaurant!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+        <div class="info-container">
+          <div class="section-header">
+            <h2>Find Us</h2>
+            <p>We are ready to serve you the best Kolhapuri dishes</p>
+          </div>
+
+          <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="info-icon">
+              <i class="bi bi-geo-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>Address</h3>
+              <p>Shop No. 12, Laxmi Chowk, Kolhapur, Maharashtra 416001</p>
+            </div>
+          </div>
+
+          <div class="info-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="info-icon">
+              <i class="bi bi-telephone"></i>
+            </div>
+            <div class="info-content">
+              <h3>Call for Reservations</h3>
+              <p>+91 98765 43210</p>
+              <p class="small-text">We recommend reserving your table at least 24 hours in advance</p>
+            </div>
+          </div>
+
+          <div class="info-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="info-icon">
+              <i class="bi bi-clock"></i>
+            </div>
+            <div class="info-content">
+              <h3>Opening Hours</h3>
+              <div class="hours-grid">
+                <div class="day">Monday - Thursday</div>
+                <div class="time">11:00 AM - 10:00 PM</div>
+
+                <div class="day">Friday - Saturday</div>
+                <div class="time">11:00 AM - 11:30 PM</div>
+
+                <div class="day">Sunday</div>
+                <div class="time">10:00 AM - 9:00 PM</div>
+
+                <div class="day">Brunch</div>
+                <div class="time">Sat & Sun, 10:00 AM - 2:00 PM</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-wrapper" data-aos="fade-up" data-aos-delay="600">
+            <a href="#book-a-table" class="btn-book">Reserve a Table</a>
+            <a href="#contact" class="btn-contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /Location Section -->
+
+   <!-- Events Section -->
+<section id="events" class="events section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="intro-text text-center mb-5" data-aos="fade-up" data-aos-delay="150">
+      <h2>Create Unforgettable Moments</h2>
+      <p>Host your special occasions with authentic Kolhapuri cuisine, elegant décor, and warm hospitality.</p>
+    </div>
+
+    <div class="event-types">
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="event-type-card">
+            <div class="icon-wrapper">
+              <i class="bi bi-calendar-heart"></i>
+            </div>
+            <h3>Weddings &amp; Celebrations</h3>
+            <p>Celebrate your big day with traditional Kolhapuri flavors and a memorable dining experience.</p>
+            <span class="capacity">Up to 150 guests</span>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="250">
+          <div class="event-type-card">
+            <div class="icon-wrapper">
+              <i class="bi bi-building"></i>
+            </div>
+            <h3>Corporate Events</h3>
+            <p>Host your meetings, launches, and team gatherings in a professional yet inviting setting.</p>
+            <span class="capacity">Up to 100 guests</span>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="event-type-card">
+            <div class="icon-wrapper">
+              <i class="bi bi-people"></i>
+            </div>
+            <h3>Private Gatherings</h3>
+            <p>Enjoy intimate family dinners, birthday parties, or friend meet-ups with our special Kolhapuri menu.</p>
+            <span class="capacity">Up to 50 guests</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-showcase" data-aos="fade-up" data-aos-delay="150">
+      <div class="row g-3">
+        <div class="col-lg-8">
+          <div class="main-image" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/restaurant/event-1.webp" alt="Event Space" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="row g-3">
+            <div class="col-lg-12 col-md-6">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+                <img src="assets/img/restaurant/event-5.webp" alt="Event" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-6">
+              <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                <img src="assets/img/restaurant/event-7.webp" alt="Event" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="event-cta" data-aos="fade-up" data-aos-delay="200">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <h3>Ready to plan your special event?</h3>
+          <p>Contact us today to customize your Kolhapuri dining experience and make your event truly memorable.</p>
+        </div>
+        <div class="col-lg-4 text-lg-end">
+          <a href="#book-a-table" class="btn-reserve">Reserve Venue</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured-events" data-aos="fade-up" data-aos-delay="200">
+      <h3>Upcoming Featured Events</h3>
+
+      <div class="row g-4">
+        <div class="col-lg-6 col-md-6">
+          <div class="featured-event-card" data-aos="fade-up" data-aos-delay="250">
+            <div class="event-date">
+              <span class="month">Jun</span>
+              <span class="day">18</span>
+            </div>
+            <div class="event-content">
+              <div class="event-image">
+                <img src="assets/img/restaurant/event-3.webp" alt="Summer Wine Festival" class="img-fluid">
+              </div>
+              <div class="event-info">
+                <h4>Summer Wine Festival</h4>
+                <ul class="event-meta">
+                  <li><i class="bi bi-clock"></i> 6:00 PM - 10:00 PM</li>
+                  <li><i class="bi bi-geo-alt"></i> Garden Terrace</li>
+                </ul>
+                <p>Join us for an evening of fine wines, Kolhapuri delicacies, and live music under the stars.</p>
+                <a href="#" class="btn-details">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+          <div class="featured-event-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="event-date">
+              <span class="month">Jul</span>
+              <span class="day">05</span>
+            </div>
+            <div class="event-content">
+              <div class="event-image">
+                <img src="assets/img/restaurant/event-8.webp" alt="Gourmet Tasting Night" class="img-fluid">
+              </div>
+              <div class="event-info">
+                <h4>Gourmet Tasting Night</h4>
+                <ul class="event-meta">
+                  <li><i class="bi bi-clock"></i> 7:30 PM - 11:00 PM</li>
+                  <li><i class="bi bi-geo-alt"></i> Main Dining Hall</li>
+                </ul>
+                <p>Experience an exclusive tasting of signature Kolhapuri dishes with expert chef guidance.</p>
+                <a href="#" class="btn-details">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section><!-- /Events Section -->
+
+<!-- Contact Section -->
+   <!-- Contact Section -->
+<section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>We are here to answer your questions and take your reservations</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <!-- Contact Info Boxes -->
+    <div class="row gy-4 mb-5">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-info-box">
+          <div class="icon-box">
+            <i class="bi bi-geo-alt"></i>
+          </div>
+          <div class="info-content">
+            <h4>Our Address</h4>
+            <p>Kolhapuri Spice Street, Kolhapur, Maharashtra 416001</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="contact-info-box">
+          <div class="icon-box">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="info-content">
+            <h4>Email Us</h4>
+            <p>info@kolhapurispice.com</p>
+            <p>reservations@kolhapurispice.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="contact-info-box">
+          <div class="icon-box">
+            <i class="bi bi-headset"></i>
+          </div>
+          <div class="info-content">
+            <h4>Hours of Operation</h4>
+            <p>Monday - Friday: 10 AM - 11 PM</p>
+            <p>Saturday - Sunday: 9 AM - 12 AM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Google Maps -->
+  <div class="map-section" data-aos="fade-up" data-aos-delay="200">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.123456789!2d74.2433!3d16.705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc13f0a0b8a1234%3A0xabcdef1234567890!2sKolhapuri%20Spice%20Street!5e0!3m2!1sen!2sin!4v1694771234567!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="container form-container-overlap">
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+      <div class="col-lg-10">
+        <div class="contact-form-wrapper">
+          <h2 class="text-center mb-4">Get in Touch</h2>
+
+          <form action="forms/contact.php" method="post" class="php-email-form">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-person"></i>
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-envelope"></i>
+                    <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-text-left"></i>
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-chat-dots message-icon"></i>
+                    <textarea class="form-control" name="message" placeholder="Write Message..." style="height: 180px" required></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /Contact Section -->
+
+<!-- Footer -->
+<footer id="footer" class="footer">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-5 col-md-12 footer-about">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span class="sitename">SangRam Restaurant</span>
+        </a>
+        <p>Experience the authentic taste of Kolhapuri cuisine in a warm and welcoming environment. Join us for unforgettable meals and events.</p>
+        <div class="social-links d-flex mt-4">
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#">Dine-In</a></li>
+          <li><a href="#">Takeaway</a></li>
+          <li><a href="#">Event Hosting</a></li>
+          <li><a href="#">Catering</a></li>
+          <li><a href="#">Gift Cards</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact</h4>
+        <p>Kolhapuri Spice Street</p>
+        <p>Kolhapur, Maharashtra 416001</p>
+        <p>India</p>
+        <p class="mt-4"><strong>Phone:</strong> <span>+91 98765 43210</span></p>
+        <p><strong>Email:</strong> <span>sangramrestoinfo@gmail.com</span></p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container copyright text-center mt-4">
+    <p>© <span>2025</span> <strong class="px-1 sitename">SangRam Restaurant</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+     
+    </div>
+  </div>
+
+</footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
